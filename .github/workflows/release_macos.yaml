@@ -16,5 +16,5 @@ jobs:
       - name: Install Rust
         uses: moonrepo/setup-rust@v1
       - run: flutter build macos --help
-      - run: flutter build macos --no-codesign --release
+      - run: flutter build macos
       - run: find build
